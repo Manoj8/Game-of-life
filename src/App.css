@@ -1,0 +1,55 @@
+body
+{
+  background:black;
+}
+
+.App {
+  text-align: center;
+}
+
+h1
+{
+  color:white;
+}
+
+*{
+  box-sizing: border-box;
+}
+.cell{
+  display: block;
+  border: 1px solid black;
+  width: 8%;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+}
+.dead{
+  background-color:blue;
+}
+.live{
+  background-color: red;
+}
+
+.grid
+{
+  width:35%;
+  height:300px;
+  margin-left:33%;
+}
+
+.buttons
+{
+  position: relative;
+  right: 34%;
+  top:350px;
+}
+
+@media screen and (max-width:770px)
+{
+  .grid
+  {
+    width:60%;
+    margin-left:22%;
+
+  }
+}
